@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-image: url("21\ Savage_Offset_Metro\ Boomin_Without\ Warning.webp");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-width: 10px;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px;
+    animation: boxShadowAnimation 3s linear infinite;
+    animation: borderAnimation 3s linear infinite;
+    height: 50%;
+    width: 25%;
+    max-width: 500px;
+    padding: 20px;
+    
+  }
+
+  .audio-player {
+    appearance: none;
+    width: 100%;
+    height: 0em;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+  
+  
+  #album-image {
+    background-size: cover;
+    left: 740px;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    animation: spin 10s linear infinite;
+    position: absolute; /* Agregado */
+    top: 25%; /* Agregado */
+    transform: translateY(-50%); /* Agregado */
+    z-index: -1; /* Agregado */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes borderAnimation {
+    0% {
+      border-color: #e707d5e3;
+    }
+    50% {
+      border-color: #c300ff;
+    }
+    100% {
+      border-color: #340de4;
+    }
+  }
+  
+  #audio-player {
+    width: 80%;
+  }
