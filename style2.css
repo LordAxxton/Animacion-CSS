@@ -38,7 +38,7 @@ body {
   #album-image {
     background-size: cover;
     display: flex;
-    top: -12px;
+    top: -15px;
     left: 460px;
     width: 340px;
     height: 340px;
