@@ -9,8 +9,8 @@ body {
     margin: 0;
   }
   
-  .container {
-    background-image: url("21\ Savage_Offset_Metro\ Boomin_Without\ Warning.webp");
+  a{
+    background-image: url("https://images.genius.com/9828d474a1c2e3586b0679a0015dc4a5.1000x1000x1.jpg");
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -24,9 +24,7 @@ body {
     width: 25%;
     max-width: 500px;
     padding: 20px;
-    
   }
-
   .audio-player {
     appearance: none;
     width: 100%;
