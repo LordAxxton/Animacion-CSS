@@ -37,9 +37,11 @@ body {
   
   #album-image {
     background-size: cover;
-    left: 740px;
-    width: 360px;
-    height: 360px;
+    display: flex;
+    top: -10px;
+    left: 460px;
+    width: 340px;
+    height: 340px;
     border-radius: 50%;
     animation: spin 10s linear infinite;
     position: absolute; /* Agregado */
