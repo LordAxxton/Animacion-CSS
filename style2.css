@@ -38,8 +38,8 @@ body {
   #album-image {
     background-size: cover;
     display: flex;
-    top: -15px;
-    left: 460px;
+    top: -16px;
+    left: 450px;
     width: 340px;
     height: 340px;
     border-radius: 50%;
